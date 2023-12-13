@@ -1,0 +1,44 @@
+.row {
+    padding: 10px;
+    border: 1px solid #000;
+    display: flex;
+    background-color: antiquewhite; 
+}
+
+.column {
+    flex:1;
+    padding: 10px;
+    border: 1px solid blue;
+    background-color: antiquewhite; 
+}
+/* .column:not(:last-child) {
+    margin-right: 10px;
+
+} */
+.component {
+    height: 60px;
+    /* margin: 10px; */
+    border: 1px dashed #000;
+    background-color: antiquewhite;
+}
+.bottomBar{
+    border: 1px solid #000;
+    display: flex;
+}
+.bottomBar .bar-item{
+    border: 1px solid blue;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+.drop-zone{
+
+}
+.drop-zone-horizentai{
+    height: 20px;
+}
+.drop-zone-vertical {
+    width: 20px;
+}
+.drop-zone.focus{
+    background-color: blue;
+}
